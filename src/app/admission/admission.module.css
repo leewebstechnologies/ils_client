@@ -1,0 +1,66 @@
+/* styles/Admissions.module.css */
+.admissionContainer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100vh;
+
+}
+.admission {
+  max-width: 900px;
+  margin: 0px auto 10px auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.admissionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step {
+  padding: 1rem;
+  border-left: 5px solid #960466;
+  background: #ffc600;
+  border-radius: 5px;
+}
+
+.step h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.step p {
+  font-size: 1rem;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .step h2 {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,48 @@
+.tuition {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.tuition-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #005a9c;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.fee-table th,
+.fee-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.fee-table th {
+  background-color: #f2f2f2;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.contact-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 4px solid #960466;
+}
