@@ -1,17 +1,17 @@
-import "./blog.css";
-import Link from "next/link";
-import Image from "next/image";
+// import "./blog.css";
+// import Link from "next/link";
+// import Image from "next/image";
 
 const Blog = () => {
   return (
     <>
-      <section id="blog-page" className="pt-90 pb-120 gray-bg">
+      {/* <section id="blog-page" className="pt-90 pb-120 gray-bg">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
               <div className="singel-blog mt-30">
                 <div className="blog-thum">
-                  <img src="images/blog/b-1.jpg" alt="Blog" />
+                  <Image src="images/blog/b-1.jpg" alt="Blog" />
                 </div>
                 <div className="blog-cont">
                   <a href="blog-singel.html">
@@ -45,8 +45,7 @@ const Blog = () => {
                     .
                   </p>
                 </div>
-              </div>{" "}
-              {/* singel blog */}
+              </div>
               <div className="singel-blog mt-30">
                 <div className="blog-thum">
                   <img src="images/blog/b-2.jpg" alt="Blog" />
@@ -83,8 +82,7 @@ const Blog = () => {
                     .
                   </p>
                 </div>
-              </div>{" "}
-              {/* singel blog */}
+              </div>
               <nav className="courses-pagination mt-50">
                 <ul className="pagination justify-content-lg-end justify-content-center">
                   <li className="page-item">
@@ -109,8 +107,7 @@ const Blog = () => {
                     </a>
                   </li>
                 </ul>
-              </nav>{" "}
-              {/* courses pagination */}
+              </nav>
             </div>
             <div className="col-lg-4">
               <div className="saidbar">
@@ -123,8 +120,7 @@ const Blog = () => {
                           <i className="fa fa-search" />
                         </button>
                       </form>
-                    </div>{" "}
-                    {/* saidbar search */}
+                    </div>
                     <div className="categories mt-30">
                       <h4>Categories</h4>
                       <ul>
@@ -154,8 +150,7 @@ const Blog = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>{" "}
-                  {/* categories */}
+                  </div>
                   <div className="col-lg-12 col-md-6">
                     <div className="saidbar-post mt-30">
                       <h4>Popular Posts</h4>
@@ -173,8 +168,7 @@ const Blog = () => {
                                 <h6>Introduction to languages</h6>
                                 <span>20 Dec 2018</span>
                               </div>
-                            </div>{" "}
-                            {/* singel post */}
+                            </div>
                           </a>
                         </li>
                         <li>
@@ -190,8 +184,7 @@ const Blog = () => {
                                 <h6>How to build a game with java</h6>
                                 <span>10 Dec 2018</span>
                               </div>
-                            </div>{" "}
-                            {/* singel post */}
+                            </div>
                           </a>
                         </li>
                         <li>
@@ -207,24 +200,18 @@ const Blog = () => {
                                 <h6>Basic accounting from primary</h6>
                                 <span>07 Dec 2018</span>
                               </div>
-                            </div>{" "}
-                            {/* singel post */}
+                            </div>
                           </a>
                         </li>
                       </ul>
-                    </div>{" "}
-                    {/* saidbar post */}
+                    </div>
                   </div>
-                </div>{" "}
-                {/* row */}
-              </div>{" "}
-              {/* saidbar */}
+                </div>
+              </div>
             </div>
-          </div>{" "}
-          {/* row */}
-        </div>{" "}
-        {/* container */}
-      </section>
+          </div>
+        </div>
+      </section> */}
     </>
   );
 };
